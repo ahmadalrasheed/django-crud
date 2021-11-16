@@ -5,4 +5,4 @@ Create django fully CRUD app , so that you are able to add or delete or update o
 
 
 ### Pull request
-[PL]()
+[PL](https://github.com/ahmadalrasheed/django-crud/pull/1)
