@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 style="margin-left: 5%;">Snack List</h1>
+{% for snack in object_list %}
+<div style="color: red;margin-left: 5%;">
+    <h3>{{snack.title}}</h3>
+    <p>{{snack.purchaser}}</p>
+    <p>{{snack.description}}</p>
+    
+</div>
+<br>
+<hr>
+
+{% endfor %}
+{% endblock %}
+
