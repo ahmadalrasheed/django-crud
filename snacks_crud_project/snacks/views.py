@@ -28,12 +28,9 @@ class SnackUpdateView(UpdateView):
     template_name='snack_update_view.html'
     model = Snack
     fields = ['title' , 'purchaser', 'description']
-
-
-# class SnackDeleteView(DeleteView):
-#     template_name='snack_delete_view.html'
-#     model = Snack
-#     context_object_name= 'snack_delete'
-   
+class SnackDeleteView(DeleteView):
+    template_name='snack_delete_view.html'
+    model = Snack
+    success_url ="/"
 
 
